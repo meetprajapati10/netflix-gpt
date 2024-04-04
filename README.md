@@ -15,6 +15,16 @@
 - Implemented Update User Profile API from Firebase (with Name & Photo)
 - Implemented SignOut API
 - Add hardcoded values to the constants file
+- BugFix: SignUp user displayName & Profile picture Update in Redux Store
+- BugFix: `Protecting Routing` - if the user is not Logged in Redirect to /browse to Login Page & vice-versa
+- Unsubscribed to the onAuthStateChanged Callback
+- Registered in `TMDB API` & Create an app to get API Read Access Token
+- Get Data to TMDB Now Playing Movies list API
+- Add Custom Hook for NowPlaying movies
+- Create movieSlice & Update store with all list of movie data
+- Planning for MainContainer & SecondaryContainer
+- Fetch data for Trailer video `(use of TMDB Movies Videos API)`
+- Embedded the YouTube video and make it AutoPlay & Mute
 
 ## Features
 

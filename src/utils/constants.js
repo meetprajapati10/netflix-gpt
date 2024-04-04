@@ -6,3 +6,12 @@ export const BACKGROUND_IMG =
 
 export const USER_AVATAR =
   "https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTEwMzg3Mjg4ZTAwZTRiMjRkZDRjN2E0NjZhNjc5NSIsInN1YiI6IjY0NGNlNmFkNTNmODMzMGIwYjE5NGIzZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Q0ljW3a_St2LfmTbNkOOiH5iwB5P3GmKAU7Ts4NdCBk",
+  },
+};

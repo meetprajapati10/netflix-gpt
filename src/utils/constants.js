@@ -15,3 +15,17 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTEwMzg3Mjg4ZTAwZTRiMjRkZDRjN2E0NjZhNjc5NSIsInN1YiI6IjY0NGNlNmFkNTNmODMzMGIwYjE5NGIzZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Q0ljW3a_St2LfmTbNkOOiH5iwB5P3GmKAU7Ts4NdCBk",
   },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const NOW_PLAYING_MOVIES =
+  "https://api.themoviedb.org/3/movie/now_playing?page=1";
+
+export const POPULAR_MOVIES =
+  "https://api.themoviedb.org/3/movie/popular?page=1";
+
+export const TOP_RATED_MOVIES =
+  "https://api.themoviedb.org/3/movie/top_rated?page=1";
+
+export const UPCOMING_MOVIES =
+  "https://api.themoviedb.org/3/movie/upcoming?page=1";

@@ -25,6 +25,13 @@
 - Planning for MainContainer & SecondaryContainer
 - Fetch data for Trailer video `(use of TMDB Movies Videos API)`
 - Embedded the YouTube video and make it AutoPlay & Mute
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- Use `IMDB CDN` image URL
+- Made the BROWSE page amazing with Tailwind CSS
+- Get `Popular`, `Upcoming`, `Top Rated` Movies Data
+- Inside Custom Hooks - `MODULAR fashion of writing code`
 
 ## Features
 

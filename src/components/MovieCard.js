@@ -2,7 +2,7 @@ import { IMG_CDN_URL } from "../utils/constants";
 
 const MovieCard = ({ posterPath }) => {
   return (
-    <div className="w-44 cursor-pointer">
+    <div className="w-40 cursor-pointer">
       <img
         className="rounded-md border border-gray-700"
         alt="movie-card"

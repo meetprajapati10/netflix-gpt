@@ -32,6 +32,10 @@
 - Made the BROWSE page amazing with Tailwind CSS
 - Get `Popular`, `Upcoming`, `Top Rated` Movies Data
 - Inside Custom Hooks - `MODULAR fashion of writing code`
+- Build `GPT Search Fetaure` into our App
+- GPT Search Page
+- GPT Search Bar
+- (EXTRA) `Multi Language Support` Feature into our App
 
 ## Features
 

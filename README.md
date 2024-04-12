@@ -36,6 +36,12 @@
 - GPT Search Page
 - GPT Search Bar
 - (EXTRA) `Multi Language Support` Feature into our App
+- Get `Gemini AI` Key
+- Gemini Search API call
+- Fetch the search movies data from TMDB Search API
+- Reusable MovieList Component to make movie suggestion container
+- All secret or sensitive Key in `.env` file
+- Use the Concept of `Memoization`.
 
 ## Features
 

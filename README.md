@@ -42,6 +42,7 @@
 - Reusable MovieList Component to make movie suggestion container
 - All secret or sensitive Key in `.env` file
 - Use the Concept of `Memoization`.
+- Make our site `Responsive`.
 
 ## Features
 

@@ -4,7 +4,7 @@ const MovieCard = ({ posterPath }) => {
   if (!posterPath) return null;
 
   return (
-    <div className="w-40 cursor-pointer">
+    <div className="w-32 md:w-36 xl:w-40 cursor-pointer">
       <img
         className="rounded-md border border-gray-700"
         alt="movie-card"

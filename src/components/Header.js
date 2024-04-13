@@ -8,7 +8,6 @@ import { addUser, removeUser } from "../Redux/userSlice";
 import { GoSearch } from "react-icons/go";
 import { toggleGptSearchView } from "../Redux/gptSlice";
 import { changeLanguage } from "../Redux/configSlice";
-import { MdHomeFilled } from "react-icons/md";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -67,16 +66,16 @@ const Header = () => {
     <div
       className={
         user
-          ? "absolute w-full pl-8 pr-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between items-center"
-          : "absolute w-full pl-40 pr-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between items-center"
+          ? "absolute w-full px-6 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between items-center"
+          : "absolute w-full pl-12 md:pl-40 pr-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between items-center"
       }
     >
-      <img className="w-48" src={LOGO_IMG} alt="logo" />
+      <img className="w-44 xl:w-48 mx-auto md:mx-0" src={LOGO_IMG} alt="logo" />
       {user && (
-        <div className="flex p-2 items-center">
+        <div className="flex md:p-2 items-center">
           {showGptSearch && (
             <select
-              className="p-2 bg-gray-700 text-white rounded-md cursor-pointer"
+              className="py-1 px-2 md:p-2 bg-gray-700 text-white rounded-md cursor-pointer"
               onChange={handleLanguageChange}
             >
               {SUPPORTED_LANGUAGES.map((language) => (
@@ -91,12 +90,18 @@ const Header = () => {
             onClick={handleGptSearchClick}
           >
             {showGptSearch ? (
-              <button className="text-lg font-medium">Home</button>
+              <button className="text-[17px] md:text-lg font-medium">
+                Home
+              </button>
             ) : (
-              <GoSearch />
+              <GoSearch className="text-[22px] md:text-[25px]" />
             )}
           </div>
-          <img className="w-9 h-9 mr-1" src={user?.photoURL} alt="user-logo" />
+          <img
+            className="hidden md:block w-9 h-9 mr-1"
+            src={user?.photoURL}
+            alt="user-logo"
+          />
           <button className="font-bold text-white" onClick={handleSignOut}>
             (Sign Out)
           </button>
